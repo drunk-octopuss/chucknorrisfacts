@@ -1,0 +1,84 @@
+#body {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40% 60%;
+    grid-gap: 10px;
+    background-color: rgb(208, 210, 212);
+}
+
+#button {
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#button:hover {
+    background-color: rgb(255, 132, 0);
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+body {
+    background-color:rgba(228, 212, 194, 0);
+}
+
+#wrapper {
+    background-color: rgb(62, 72, 81);
+}
+
+#main {
+    text-align: center;
+    max-height: 500px;
+    padding: 40px;
+}
+
+#header-text {
+    color: rgb(70, 144, 197);
+}
+
+
+
+#description {
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+#content {
+    justify-content: flex-end;
+    min-height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(217, 118, 47)
+}
+
+#fact-wrapper {
+    justify-self: center;
+}
+
+#chn-facts {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+#footer {
+    min-height: 100px;
+    justify-content: flex-start;
+}
+
+#footer-text {
+    text-align: center;
+    color: black;
+}
+
+#error-text {
+    color: red;
+}
